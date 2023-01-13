@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.header{
+    background-color: #2E323F;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+.nav_link{
+    color: #ffffff;
+    font-size: 1.125rem;
+}
+.nav-btn{
+    background-color: #A59678;
+    padding: 0.2rem 1rem;
+    border-radius: 100px;
+}
+.nav-item + .nav-item{
+    margin-top: 1rem;
+}
+h1{
+    margin: 0;
+}
+.section-1{
+    background-color: #3B4050;
+    padding: 2rem;
+}
+.heading>h1{
+    font-family: 'Oswald',sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.brown{
+    color: #A59678;
+}
+.intro{
+    margin-top: 2rem;
+}
+.intro p{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.btn{
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    border: 0;
+    background-color: #A59678;
+}
+.btn a{
+    color: #ffffff;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.section-2{
+    padding: 2rem;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card-heading{
+    font-family: 'Oswald',sans-serif;
+    color: #A59678;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.card-intro{
+    font-size: 1rem;
+}
+.section-3{
+    padding: 2rem;
+}
+.col-1 h3{
+    font-family: 'Oswald',sans-serif;
+    color: #A59678;
+    font-size: 1.5rem;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.col-2{
+    margin-top: 0.5rem;
+}
+.col{
+    background-color: #2E323F;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+.col + .col{
+    margin-top: 1.5rem;
+}
+.col:first-child{
+    margin-top: 1.5rem;
+}
+.col-heading{
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.5rem;
+}
+.section-4{
+    margin: 0;
+    padding: 2rem;
+    background-color: #2E323F;
+    color: #ffffff;
+}
+.footer-heading{
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+}
+.col-footer-heading{
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.5rem;
+    color: #A59678;
+}
+.list-link{
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+}
+.list-item + .list-item{
+    margin-top: 0.75rem;
+}
+.image{
+    width: 100%;
+}
+@media (min-width: 700px) and (max-width: 1001px) {
+    .header{
+        padding: 0 2rem;
+    }
+    .reduce{
+        width: 70%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item + .nav-item{
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    .nav_list-primary{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .nav_list-secondary{
+        display: flex;
+        align-items: center;
+    }
+    .nav_link{
+        font-size: 1rem;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    }
+    .btn a{
+        font-size: 1rem;
+    }
+    .card-holder{
+        display: flex;
+        gap: 1rem;
+    }
+    .card-heading{
+        font-size: 1.5rem;
+    }
+    .col-1 h3{
+        font-size: 1.5rem;
+    }
+    .col-1 p{
+        font-size: 1rem;
+    }
+    .col-2{
+        display: flex;
+    }
+    .col + .col{
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+    .col:first-child{
+        margin-top: 0;
+    }
+
+    .footer-heading{
+        font-size: 2.5rem;
+    }
+    .col-footer-heading{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .sub-heading{
+        font-size: 1rem;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1001px){
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .header{
+        padding: 0 5rem;
+    }
+    .section-1,.section-2,.section-3,.section-4{
+        padding: 4rem;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item + .nav-item{
+        margin-top: 0rem;
+        margin-left: 2rem;
+    }
+    .nav_list-primary{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .nav_list-secondary{
+        display: flex;
+        align-items: center;
+    }
+    .nav_link{
+        font-size: 1.1rem;
+    }
+    .heading h1{
+        margin: 0;
+        font-size: 5rem;
+    }
+    .intro p{
+        font-size: 1.5rem;
+    }
+    .btn a{
+        font-size: 1.5rem;
+    }
+    .row-1{
+        display: flex;
+        justify-content: space-between;
+        gap: 10rem;
+    }
+    .heading{
+        width: 50%;
+    }
+    .intro{
+        width: 50%;
+        align-self: flex-end;
+    }
+    .card-holder{
+        display: flex;
+        gap: 8rem;
+        justify-content: space-between;
+    }
+    .card-heading{
+        font-size: 2rem;
+    }
+    .card-intro{
+        font-size: 1rem;
+    }
+    .col-1 h3{
+        font-size: 2rem;
+    }
+    .col-1 p{
+        font-size: 1.1rem;
+    }
+    .col-1{
+        width: 65%;
+    }
+    .col-2{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+    .col + .col{
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .col:first-child{
+        margin-top: 0;
+    }
+
+    .footer-heading{
+        font-size: 3.5rem;
+    }
+    .col-footer-heading{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .sub-heading{
+        font-size: 1rem;
+    }
+    .row-2{
+        display: flex;
+        justify-content: space-around;
+        gap: 6rem;
+    }
+    .col-footer:first-child{
+        width: 60%;
+    }
+    .col-footer{
+        width: 20%;
+    }
+}
